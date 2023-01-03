@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lobster&family=Poppins&family=Prosto+One&display=swap');
+*{margin: 0;
+padding: 0;
+font-family: 'Poppins', sans-serif;
+box-sizing: border-box;}
+.container{max-width: 1170px;
+ ;
+margin: 0% auto;}
+.footer{background-color: #24262b;
+padding: 70px 0px;}
+li{list-style: none;
+}
+.row{display: flex;
+flex-wrap: wrap;}
+.column{flex-basis: 25%;
+    padding: 0px 15px;
+}
+.column h4{font-size: 18px;
+color:white;
+margin-bottom: 30px;
+text-transform: capitalize;
+position: relative;
+}
+h4::before{content: "";
+position: absolute;
+background-color: #db1536;
+left: 0px;
+bottom: -10px;
+height: 2px;
+box-sizing: border-box;
+width: 50px;}
+ul li:not(last child){margin-bottom: 10px;}
+a{text-decoration: none;
+text-transform: capitalize;
+color:#ffffff;
+font-weight: 320;
+transition: .6s;
+color: #bbbbbb;}
+a:hover{text-decoration: underline;
+padding-left: 8px;}
+.links a{font-size: 20px;
+display: inline-block;}
+
+
+@media(max-width:767px){
+    .column{flex-basis: 50%;
+    margin-bottom: 30px;
+    
+}
+}
+@media(max-width:594px){
+ .column{flex-basis: 100%;
+        flex-direction: column;
+    margin-bottom: 30px;}}
