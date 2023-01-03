@@ -1,0 +1,96 @@
+*{margin: 0px;
+padding: 0px;
+box-sizing: border-box;}
+html{scroll-behavior: smooth;
+}
+body{
+   --main-color:#283526;
+   --primary-color:#888888;
+   --button-background:#4b709e;
+   --primary-button-background:#fe7649;
+   --background-color:#e2efff;
+}
+h1,h2{font-family: sans-serif;
+color:var(--main-color)}
+h4,h3{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: var(--main-color);}
+h3{font-weight: 750;
+font-size: 2.2rem;
+line-height: 6rem;
+text-transform: capitalize;}
+p,li,a,button{color: var(--primary-color);
+font-family: Arial, Helvetica, sans-serif;}
+p{font-size: 1.2rem;
+line-height: 150%;
+font-style: normal;
+font-weight: normal;}
+a{text-decoration: none;
+cursor: pointer;}
+li{list-style: none;
+text-transform: capitalize;}
+button{padding: 0px 1.2rem;
+border-radius: 2rem;
+border: none;
+line-height: 3.6rem;
+text-transform: capitalize;
+cursor: pointer;
+font-style: normal;
+font-weight: normal;
+font-size: 1.2rem;}
+/* our needed style is dine here */
+
+/*nav start */
+header{padding: 0 12rem;}
+header nav{display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+height: 120px;}
+header nav .left{display: flex;
+justify-content: space-between;
+align-items: center;
+width: 50%;
+background-color: ;}
+
+header nav .left a img{width: 120px;}
+header nav .left .submenu{display: flex;
+font-size: 14px;
+font-weight: bold;}
+header nav .left .submenu a li{padding-right: 20px;
+letter-spacing: 1px;transition: all 0.6s;
+line-height: 3.6rem;}
+header nav .left .submenu a li:hover{text-decoration: underline;
+   color: #fe7649;
+}
+header .right .submenu{display: flex;
+justify-content: flex-end;
+width: 100%;
+align-items: center;}
+header .right .submenu a li,button{padding-right: 18px;}
+button{color: orangered;
+background-color: #e7e7e7;}
+header .right .submenu a li:hover{color: #fe7649;}
+
+/*-----------nav endssss nav end here -------------*/
+.mainhero{padding: 0px 12rem;
+display: flex;
+justify-content: space-between;
+flex-wrap: warp;}
+.mainhero .heroleft{background-color:;}
+.btn-group{height: 45px;}
+.btn-group a img{height: 100%;}
+.heroleft,.heroright{flex-basis: 48%;}
+.heroright a img{height: 100%;
+width: 100%;}
+.heroleft .btn-group{float: left;
+padding-left: 10px;}
+.mainhero .heroleft h1{text-transform: capitalize;}
+.mainhero .heroleft h1,p,.btn-group{margin-top: 20px;}
+.mainhero .heroleft {padding-top:  20px;}
+
+
+
+
+
+
+
